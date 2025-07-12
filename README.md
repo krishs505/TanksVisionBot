@@ -1,6 +1,6 @@
 # Tanks Vision Bot
 
-**Tanks Vision Bot** analyzes your clipboard image of the GamePigeon Tanks game, detects target positions and wind conditions, and calculates the optimal firing angle and power to hit the enemy tank using kinematics-based projectile motion.
+**Tanks Vision Bot** analyzes the GamePigeon Tanks game, detects target positions and wind conditions, and calculates the optimal firing angle and power to hit the enemy tank using kinematics-based projectile motion.
 
 ---
 
