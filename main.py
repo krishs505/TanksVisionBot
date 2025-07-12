@@ -22,7 +22,7 @@ if grabFromClipboard:
 else:
     img = Image.open('resized_image.png')
 
-# converto numpy image to analyze pixel data
+# conver to numpy array to analyze pixel data
 img_np = np.array(img)
 
 # calculate wind magnitude based on pixels
