@@ -22,10 +22,10 @@ if grabFromClipboard:
 else:
     img = Image.open('resized_image.png')
 
-# conver to numpy array to analyze pixel data
+# convert to numpy array to analyze pixel data
 img_np = np.array(img)
 
-# calculate wind magnitude based on pixels
+# calculate wind magnitude based on pixel intensity
 wind = 2
 for c in img_np[121, 174:320]:
     if c[2] > 160:
@@ -120,5 +120,6 @@ for i in range(21):
                     best_power = power
 
 print('-----')
+
 # print optimal angle and power with pixel difference
 print('optimal angle = ' + str(math.degrees(best_angle)) + ' at power ' + str(best_power) + ', with difference of ' + str(difference))
